@@ -1,0 +1,30 @@
+/* Write your code here: */
+
+/* group selector */
+h1, h2 { 
+    color: blueviolet;
+}
+
+/* child selector */
+.box > .done {
+    color: firebrick;
+}
+
+/* descendant selector */
+/* ancestor and descendanct */
+.box li {
+    color: blue;
+}
+
+/* chaining selector */
+/* apply where all selectors are true */
+/* always start on the element for example h1.class or h1#class */
+li.done {
+    color: green;
+}
+
+/* combining selectors */
+/* ancestor chain selector */
+ul p.done {
+    font-size: 0.5rem;
+}
